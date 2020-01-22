@@ -1,0 +1,46 @@
+{
+  "name": "paw-poc-presentasjon",
+  "version": "1.0.0",
+  "description": "Test på hvordan vi kan presentere oss selv og hva vi driver med",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "standard && npm audit",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "now-build": "npm run build && npm run export",
+    "nav-build": "BASE_PATH=/arbeid/paw/presentasjon npm run build && npm run export",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navikt/paw-poc-presentasjon.git"
+  },
+  "keywords": [],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navikt/paw-poc-presentasjon/issues"
+  },
+  "homepage": "https://github.com/navikt/paw-poc-presentasjon#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "2.0.5",
+    "amplitude-js": "5.8.0",
+    "autoprefixer": "9.7.4",
+    "next": "9.2.0",
+    "postcss-import": "12.0.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "tailwindcss": "1.1.4"
+  },
+  "devDependencies": {
+    "standard": "14.3.1"
+  },
+  "engines": {
+    "node": ">=12.14.1"
+  }
+}
