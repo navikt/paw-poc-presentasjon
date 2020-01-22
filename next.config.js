@@ -1,11 +1,7 @@
 const nextConfig = {
+  target: 'serverless',
   exportTrailingSlash: true,
   assetPrefix: process.env.BASE_PATH || '',
-  exportPathMap: function () {
-    return {
-      '/': { page: '/' }
-    }
-  }
 }
 
 module.exports = nextConfig
