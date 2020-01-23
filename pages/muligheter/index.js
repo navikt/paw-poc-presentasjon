@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import LinkBox from '../components/link-box'
+import LinkBox from '../../components/link-box'
 
 const data = [
   {
-    id: 'maal',
-    url: '/maal',
-    title: 'Mål',
-    description: ''
+    id: 'hurtigveileder',
+    url: '/hurtigveileder',
+    title: 'Hurtigveileder',
+    description: 'Gi kort og konkret veiledning til standardbrukeren'
   },
   {
     id: 'muligheter',
@@ -34,15 +34,15 @@ const data = [
   }
 ]
 
-function Home () {
+export default () => {
   return (
     <>
       <Head>
-        <meta name='description' content='Tanker, ord og handlinger fra team PAW' />
-        <title>Team PAW</title>
+        <meta name='description' content='Muligheter for team PAW' />
+        <title>Muligheter</title>
       </Head>
       <div className='container mx-auto'>
-        <h1 className='text-center text-4xl font-semibold'>Team PAW</h1>
+        <h1 className='text-center text-4xl font-semibold'>Muligheter</h1>
         <div className='flex flex-col md:flex-row justify-around'>
           {data.map(item => <LinkBox {...item} key={item.id} />)}
         </div>
@@ -50,5 +50,3 @@ function Home () {
     </>
   )
 }
-
-export default Home
