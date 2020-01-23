@@ -4,3 +4,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+h1 {
+  @apply text-4xl font-semibold;
+}
+
+h2 {
+  @apply text-3xl font-semibold;
+}
