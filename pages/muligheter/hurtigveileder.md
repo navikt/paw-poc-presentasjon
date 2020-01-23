@@ -1,3 +1,5 @@
+<div className="container mx-auto">
+
 # Hurtigveileder
 
 ## Hypotese
@@ -7,3 +9,5 @@
 ## Innsikt
 
 ## Veien videre
+
+</div>

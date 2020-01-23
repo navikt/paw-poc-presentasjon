@@ -29,6 +29,8 @@
   "homepage": "https://github.com/navikt/paw-poc-presentasjon#readme",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "2.0.5",
+    "@mdx-js/loader": "1.5.5",
+    "@next/mdx": "9.2.0",
     "amplitude-js": "5.8.0",
     "autoprefixer": "9.7.4",
     "next": "9.2.0",

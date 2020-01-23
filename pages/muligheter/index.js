@@ -4,7 +4,7 @@ import LinkBox from '../../components/link-box'
 const data = [
   {
     id: 'hurtigveileder',
-    url: '/hurtigveileder',
+    url: '/muligheter/hurtigveileder',
     title: 'Hurtigveileder',
     description: 'Gi kort og konkret veiledning til standardbrukeren'
   },
