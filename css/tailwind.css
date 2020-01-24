@@ -5,6 +5,10 @@
 @import "tailwindcss/utilities";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
+body {
+  @apply text-xl;
+}
+
 h1 {
   @apply text-4xl;
   @apply font-semibold;
@@ -22,7 +26,7 @@ h3 {
 
 ul {
   @apply list-disc;
-  @apply pl-4;
+  @apply pl-8;
 }
 
 img {
