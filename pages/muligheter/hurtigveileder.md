@@ -56,9 +56,33 @@ Vi logget besøk, svar på arbeidsplassen registrering og antall dager i forkant
 - 6 prosent passe
 
 ![Tidlig, sent og passe](/images/muligheter/hurtigveileder/besok-og-fordeling.png)
+ 
+### Hva gjør tidlig brukerne?
+- Dagpengekalkulatoren, 59 % går inn der
+- Ingen forsøker å registrere seg, for de får ikke opp knappen
+- 40% ikke registrert på arbeidsplassen men bare 9% av disse klikker på lenken til arbeidsplassen
+- Mer veiledning: 20 %
+- Dagpengeinfo: 25 % (litt lite, men kanskje fordi de får informasjon de trenger på kalkisen
+ 
+### Hva gjør seint brukerne? (siste dag med lønn i går eller seinere)
+- 32% som går til kalkisen
+- 24% går til registrering
+- 6% går til dagpengesøknad
+- 15% ønsker mer veiledning
+- 38 % som ikke er registert med CV hos arbeidsplassen og 8% klikker på linken dit
+
+### Hva gjør passe brukerne? (en uke)
+- 36% går til kalkisen
+- 27% til registrering
+- 9 % til dagpengesøknaden
+- 45 % som ikke er registrert på arbeidsplassen og *ingen* av de går til arbeidsplassen
 
 ## Innsikt
 
+- Det er overraskende få som går videre til arbeidsplassen 
+
 ## Veien videre
+
+På sikt vil det være interessant å legge opp til mer datainnsamling og mer personalisering av veilederen. Begger deler vil være veldig enkelt å sette opp rent teknisk.
 
 </div>
