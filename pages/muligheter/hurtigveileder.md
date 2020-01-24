@@ -1,8 +1,10 @@
-<div className="container mx-auto">
+<div className="container mx-auto mt-2 mb-4">
 
 # Hurtigveileder
 
 Et eksperiement som gikk over 2 uker for å samle innsikt på hvor hvor tidlig brukerne er på vår sider i forhold til siste arbeidsdag.
+
+- [Se demo](https://hurtigveileder.nav.party)
 
 ## Hypotese
 
@@ -79,7 +81,9 @@ Vi logget besøk, svar på arbeidsplassen registrering og antall dager i forkant
 
 ## Innsikt
 
-- Det er overraskende få som går videre til arbeidsplassen 
+- Det er overraskende få som går videre til arbeidsplassen
+
+![Tidlig, sent og passe](/images/muligheter/hurtigveileder/arbeidsplassen.png)
 
 ## Veien videre
 
