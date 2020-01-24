@@ -5,6 +5,7 @@
 Et eksperiement som gikk over 2 uker for å samle innsikt på hvor hvor tidlig brukerne er på vår sider i forhold til siste arbeidsdag.
 
 - [Se demo](https://hurtigveileder.nav.party)
+- [Dashboard i Amplitude](https://analytics.amplitude.com/nav/dashboard/h3llh79) (krever tilgang)
 
 ## Hypotese
 
@@ -32,7 +33,7 @@ Gi bruker konkrete oppgaver i tidligfase
 
 ![Bilde av "Veiledning" knappen](/images/muligheter/hurtigveileder/inngang-til-hurtigveileder.png)
 
-Vi la inn en knapp på toppen av "Mistet jobben" siden til veiledearbeeidssøker.
+Vi la inn en knapp på toppen av "Mistet jobben" siden til veiledearbeidssøker.
 Knappen hadde teksten "Få veiledning". De som trykket på denne kom til hurtigveilederen som stilte et par spørsmål og så viste en anbefaling av hva du kunne gjøre fremover.
 
 Spørsmålene var:
@@ -48,13 +49,13 @@ Spørsmålene var:
 
 Vi logget besøk, svar på arbeidsplassen registrering og antall dager i forkant (eller etterkant) i Amplitude. Vi laget samlegrupper på tidlig, passe og sent ettersom hvordan de var i forhold til "idealsøketidspunkt".
 
-- 8 prosent av de som kom på siden gikk til hurtigveilederen
+- 8 % av de som kom på siden gikk til hurtigveilederen
 
-### Foredeling tidlig, sent og passe
+### Fordeling tidlig, sent og passe
 
-- 46 prosent sent
-- 48 prosent tidlig
-- 6 prosent passe
+- 46 % sent
+- 48 % tidlig
+- 6 % passe
 
 ![Tidlig, sent og passe](/images/muligheter/hurtigveileder/besok-og-fordeling.png)
  
@@ -65,14 +66,14 @@ Vi logget besøk, svar på arbeidsplassen registrering og antall dager i forkant
 - 25 % Går til mer dagpengeinfo
  
 ### Hva gjør seint brukerne? (siste dag med lønn i går eller seinere)
-- 32 % som går til kalkisen
+- 32 % som går til dagpengekalkulatoren
 - 38 % som ikke er registert med CV hos arbeidsplassen og 8% klikker på linken dit
 - 24 % går til registrering
 - 6 % går til dagpengesøknad
 - 15 % ønsker mer veiledning
 
 ### Hva gjør passe brukerne? (en uke)
-- 36 % går til kalkisen
+- 36 % går til dagpengekalkulatoren
 - 45 % som ikke er registrert på arbeidsplassen og *ingen* av de går til arbeidsplassen
 - 27 % til registrering
 - 9 % til dagpengesøknaden
@@ -86,6 +87,7 @@ Vi logget besøk, svar på arbeidsplassen registrering og antall dager i forkant
 
 ## Veien videre
 
-På sikt vil det være interessant å legge opp til mer datainnsamling og mer personalisering av veilederen. Begger deler vil være veldig enkelt å sette opp rent teknisk.
+Det er interessant å legge opp til mer datainnsamling og mer personalisering av veilederen.
+Begge deler vil være veldig enkelt å sette opp rent teknisk.
 
 </div>
