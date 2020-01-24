@@ -90,4 +90,13 @@ Vi logget besøk, svar på arbeidsplassen registrering og antall dager i forkant
 Det er interessant å legge opp til mer datainnsamling og mer personalisering av veilederen.
 Begge deler vil være veldig enkelt å sette opp rent teknisk.
 
+### Mulige gevinster
+
+- Bruker: får mer relevant informasjon
+- Bruker: søker til rett tid med rett innhold
+- NAV: får færre henvendelser fordi bruker finner det hen har behov for
+- NAV: får færre søknader på feil tidspunkt
+- NAV: får færre klager å behandle
+- NAV: utbetaler mindre dagpenger fordi bruker kommer fortere ut i ny jobb 
+
 </div>
