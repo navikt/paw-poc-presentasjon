@@ -28,3 +28,8 @@ ul {
 img {
   @apply p-4;
 }
+
+
+b {
+  @apply font-bold;
+}
