@@ -1,5 +1,5 @@
 const purgecssConfig = {
-  content: ['./components/**/*.js', './pages/**/*.js', './node_modules/react-day-picker/**/*.js'],
+  content: ['./components/**/*.js', './pages/**/*.js'],
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
 }
 
@@ -8,6 +8,6 @@ module.exports = {
     'postcss-import': {},
     tailwindcss: {},
     autoprefixer: {},
-    '@fullhuman/postcss-purgecss': purgecssConfig
+    //'@fullhuman/postcss-purgecss': purgecssConfig
   }
 }

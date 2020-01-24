@@ -14,3 +14,17 @@ h2 {
   @apply text-3xl;
   @apply font-semibold;
 }
+
+h3 {
+  @apply text-2xl;
+  @apply font-semibold;
+}
+
+ul {
+  @apply list-disc;
+  @apply pl-4;
+}
+
+img {
+  @apply p-4;
+}
