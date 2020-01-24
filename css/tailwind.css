@@ -1,6 +1,9 @@
 /* purgecss start ignore */
 @import "tailwindcss/base";
 /* purgecss end ignore */
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 h1 {
   @apply text-4xl;
@@ -11,7 +14,3 @@ h2 {
   @apply text-3xl;
   @apply font-semibold;
 }
-
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
