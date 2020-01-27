@@ -26,6 +26,10 @@ img {
   @apply p-4;
 }
 
+a {
+  @apply underline;
+  @apply text-blue-600;
+}
 
 b {
   @apply font-bold;

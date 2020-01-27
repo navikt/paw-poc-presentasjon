@@ -110,7 +110,9 @@ Av de som ga tilbakemelding var det 50 % som "elsket" tjenesten og 18 % som "hat
 
 63 % av de som "elsket" tjenesten er kategorisert som "tidlig" og det er disse brukerne tjenesten først og fremst var laget for.
 
-75 % av de som "hatet" den er i kategorien "sent" og det gir også mening.
+75 % av de som "hatet" den er i kategorien "sent" og det gir også mening. Disse brukerne antar vi ønsker grundigere veiledning enn de som oppsøker oss på forhånd.
+
+![Rekke med smileys](/images/muligheter/hurtigveileder/smileys.png)
 
 ## Innsikt
 
