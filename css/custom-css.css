@@ -1,0 +1,32 @@
+body {
+  @apply text-xl;
+}
+
+h1 {
+  @apply text-4xl;
+  @apply font-semibold;
+}
+
+h2 {
+  @apply text-3xl;
+  @apply font-semibold;
+}
+
+h3 {
+  @apply text-2xl;
+  @apply font-semibold;
+}
+
+ul {
+  @apply list-disc;
+  @apply pl-8;
+}
+
+img {
+  @apply p-4;
+}
+
+
+b {
+  @apply font-bold;
+}
