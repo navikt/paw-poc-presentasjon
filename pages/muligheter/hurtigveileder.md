@@ -102,6 +102,19 @@ Prosentene er i forhold til totalen i gruppen.
 - 9 % til dagpengesøknaden
 - *ingen* går til mer veiledning
 
+### Mer veiledning... om hva?
+
+23 % av de som totalt benyttet hurtigveilederen valgte "Ønsker du mer veiledning" i ulike varianter.
+
+Dette var en samling lenker hvor de fleste gikk tilbake til "Veiviser 1" og så var de i tillegg en til den generelle informasjonssiden om dagpenger. Av de som ønsket mer veiledning var fordelingen slik.
+
+- 66 % gikk tilbake til "Mistet jobben" på veiviser 1
+- 16 % gikk til generell info om dagpenger
+- 8 % gikk til "Bytte jobb" på veiviser 1
+- 5 % gikk til "Permittert" på veiviser 1
+- 5 % gikk til "Utenfor arbeidslivet lenge" på veiviser 1
+- 1 % gikk til "Ung og lite arbeidserfaring" på veiviser 1
+
 ### Hva synes brukerne?
 
 Veldig få trykket på tilbakemeldingspanelet som bare var en rekke smileys plassert over boksen "Mer veiledning"
@@ -116,8 +129,9 @@ Av de som ga tilbakemelding var det 50 % som "elsket" tjenesten og 18 % som "hat
 
 ## Innsikt
 
-- Det er overraskende få som går videre til arbeidsplassen
 - Nesten halvparten av de som besøker oss er i kategorien "tidlig"
+- Beskrivelse av situasjon matcher ikke nødvendigvis brukernes (de går til annen del av veiviser 1)
+- Det er overraskende få som går videre til arbeidsplassen
 - Veldig få gir tilbakemelding
 
 ![Tidlig, sent og passe](/images/muligheter/hurtigveileder/arbeidsplassen.png)
