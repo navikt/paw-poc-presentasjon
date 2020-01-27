@@ -7,6 +7,12 @@ Et eksperiement som gikk over 2 uker for å samle innsikt på hvor hvor tidlig b
 - [Se demo](https://hurtigveileder.nav.party)
 - [Dashboard i Amplitude](https://analytics.amplitude.com/nav/dashboard/h3llh79) (krever tilgang)
 
+## Teknisk
+
+- Satt opp som egen app
+- Next.js, tailwind.css, nginx på naiserator
+- Inngang fra Veiviser 1 toggles fra unleash
+
 ## Hypotese
 
 Gi bruker konkrete oppgaver i tidligfase
