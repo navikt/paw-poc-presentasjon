@@ -1,0 +1,11 @@
+{
+  "version": "2",
+  "name": "paw-poc-presentasjon-screenshot",
+  "scope": "zrrrzzt",
+  "builds": [
+    {
+      "src": "/screenshots/*.png",
+      "use": "@now/static"
+    }
+  ]
+}
