@@ -22,10 +22,9 @@ jobs:
         url: https://paw.nav.party
         fullPage: true
     - shell: bash
-        run: |
-          tree -d > structure.txt
+        run: tree -d > structure.txt
     - name: Upload file structue
       uses: actions/upload-artifact@v1
       with:
         name: structure
-        path: math-homework.txt
+        path: structure.txt
