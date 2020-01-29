@@ -24,7 +24,11 @@ jobs:
     - run: echo "::set-env name=SCREENSHOT_NAME::$(ls screenshots/*.png)"
       name: Henter bane til skjermdump
     - uses: actions/upload-artifact@v1
-      name: Laster opp skjermbilde
+      name: Laster opp skjermbilde som artifakt
       with:
         name: Screenshots
         path: ${{ env.SCREENSHOT_NAME }}
+    - run: now ${{ env.SCREENSHOT_NAME }} --name paw-poc-presentasjon-screendump --token ${ZEIT_TOKEN}
+      name: Legger skjermbilde på ZEIT/Now
+      env:
+        ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
