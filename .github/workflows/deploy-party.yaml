@@ -21,10 +21,9 @@ jobs:
       with:
         url: https://paw.nav.party
         fullPage: true
-    - shell: bash
-        run: tree -d > structure.txt
-    - name: Upload file structue
-      uses: actions/upload-artifact@v1
+    - run: tree -d > structure.txt
+    - uses: actions/upload-artifact@v1
+      name: Upload file structue
       with:
         name: structure
         path: structure.txt
