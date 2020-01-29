@@ -21,7 +21,7 @@ jobs:
       with:
         url: https://paw.nav.party
         fullPage: true
-    - run: now /screenshots --name paw-poc-presentasjon-screeenshots --token ${ZEIT_TOKEN}
+    - run: now ~/work/paw-poc-presentasjon/screenshots --name paw-poc-presentasjon-screeenshots --token ${ZEIT_TOKEN}
       name: Poster bildet til ZEIT
       env:
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
