@@ -21,8 +21,9 @@ jobs:
       with:
         url: https://paw.nav.party
         fullPage: true
+    - run: FILENAME=(`ls screenshots/*.png`)
     - uses: actions/upload-artifact@v1
-      name: Upload screenshots
+      name: Upload screenshot
       with:
         name: Screenshots
-        path: screenshots
+        path: ${{ FILENAME }}
