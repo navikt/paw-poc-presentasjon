@@ -16,8 +16,8 @@ jobs:
     - run: now --prod --token ${ZEIT_TOKEN}
       env:
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-    - name: Tar bilde av forsiden
-    - uses: "lannonbr/puppeteer-screenshot-action@1.0.0"
+    - uses: lannonbr/puppeteer-screenshot-action@1.0.0
+      name: Tar bilde av forsiden
       with:
         url: https://paw.nav.party
         fullPage: true
