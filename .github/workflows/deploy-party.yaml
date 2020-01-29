@@ -28,7 +28,7 @@ jobs:
       with:
         name: Screenshots
         path: ${{ env.SCREENSHOT_NAME }}
-    - run: now --local-config now-screenshot.json --prod --token ${ZEIT_TOKEN}
+    - run: now ${{ env.SCREENSHOT_NAME }} --local-config now-screenshot.json --prod --token ${ZEIT_TOKEN}
       name: Legger skjermbilde på ZEIT/Now
       env:
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
