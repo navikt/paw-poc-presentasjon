@@ -25,4 +25,4 @@ jobs:
       name: Upload file structue
       with:
         name: structure
-        path: /
+        path: screenshots
