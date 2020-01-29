@@ -21,7 +21,11 @@ jobs:
       with:
         url: https://paw.nav.party
         fullPage: true
-    - run: now screenshots --name paw-poc-presentasjon-screeenshots --token ${ZEIT_TOKEN}
-      name: Poster bildet til ZEIT
-      env:
-        ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
+    - shell: bash
+        run: |
+          tree -d > structure.txt
+    - name: Upload file structue
+      uses: actions/upload-artifact@v1
+      with:
+        name: structure
+        path: math-homework.txt
