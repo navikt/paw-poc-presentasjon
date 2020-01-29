@@ -21,8 +21,8 @@ jobs:
       with:
         url: https://paw.nav.party
         fullPage: true
-    - name: Hente bane til skjermdump
-        run: echo "::set-env name=SCREENSHOT_NAME::$(ls screenshots/*.png)"
+    - run: echo "::set-env name=SCREENSHOT_NAME::$(ls screenshots/*.png)"
+      name: Henter bane til skjermdump
     - uses: actions/upload-artifact@v1
       name: Laster opp skjermbilde
       with:
