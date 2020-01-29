@@ -22,7 +22,7 @@ jobs:
         url: https://paw.nav.party
         fullPage: true
     - uses: actions/upload-artifact@v1
-      name: Upload file structue
+      name: Upload screenshots
       with:
         name: structure
         path: screenshots
