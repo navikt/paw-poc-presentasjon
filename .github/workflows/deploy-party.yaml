@@ -16,7 +16,7 @@ jobs:
     - run: now --prod --token ${ZEIT_TOKEN}
       env:
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-    - uses: navikt/screenshots-action@1.0.1
+    - uses: navikt/screenshots-action@1.0.2
       name: Tar bilde av forsiden
       with:
         url: https://paw.nav.party
