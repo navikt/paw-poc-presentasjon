@@ -16,19 +16,17 @@ jobs:
     - run: now --prod --token ${ZEIT_TOKEN}
       env:
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-    - uses: lannonbr/puppeteer-screenshot-action@1.0.0
+    - uses: navikt/screenshots-action@1.0.1
       name: Tar bilde av forsiden
       with:
         url: https://paw.nav.party
         fullPage: true
-    - run: echo "::set-env name=SCREENSHOT_NAME::$(ls screenshots/*.png)"
-      name: Henter bane til skjermdump
     - uses: actions/upload-artifact@v1
-      name: Laster opp skjermbilde som artifakt
+      name: Laster opp skjermbilder som artifakt
       with:
         name: Screenshots
-        path: ${{ env.SCREENSHOT_NAME }}
-    - run: now ${{ env.SCREENSHOT_NAME }} --local-config now-screenshot.json --prod --token ${ZEIT_TOKEN}
-      name: Legger skjermbilde på ZEIT/Now
+        path: screenshots
+    - run: now screenshots --local-config now-screenshot.json --prod --token ${ZEIT_TOKEN}
+      name: Legger skjermbilder på ZEIT/Now
       env:
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
