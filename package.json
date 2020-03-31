@@ -28,21 +28,21 @@
   },
   "homepage": "https://github.com/navikt/paw-poc-presentasjon#readme",
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "2.0.5",
-    "@mdx-js/loader": "1.5.5",
-    "@next/mdx": "9.2.1",
-    "amplitude-js": "5.8.0",
-    "autoprefixer": "9.7.4",
-    "next": "9.2.1",
+    "@fullhuman/postcss-purgecss": "2.1.0",
+    "@mdx-js/loader": "1.5.8",
+    "@next/mdx": "9.3.3",
+    "amplitude-js": "5.10.0",
+    "autoprefixer": "9.7.5",
+    "next": "9.3.3",
     "postcss-import": "12.0.1",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
-    "tailwindcss": "1.1.4"
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "tailwindcss": "1.2.0"
   },
   "devDependencies": {
-    "standard": "14.3.1"
+    "standard": "14.3.3"
   },
   "engines": {
-    "node": ">=12.14.1"
+    "node": ">=12.16.1"
   }
 }
