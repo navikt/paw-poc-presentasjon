@@ -13,7 +13,7 @@ jobs:
         node-version: 12
     - run: npm install
     - run: npm test
-    - run: now --prod --token ${ZEIT_TOKEN}
+    - run: now --confirm --prod --token ${ZEIT_TOKEN}
       env:
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
     - uses: navikt/screenshots-action@1.0.5
@@ -25,7 +25,7 @@ jobs:
       with:
         name: Screenshots
         path: screenshots
-    - run: now screenshots --local-config now-screenshot.json --prod --token ${ZEIT_TOKEN}
+    - run: now screenshots --local-config now-screenshot.json --confirm --prod --token ${ZEIT_TOKEN}
       name: Legger skjermbilder på ZEIT/Now
       env:
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
